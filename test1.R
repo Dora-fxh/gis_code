@@ -1,10 +1,13 @@
+1+1
+2==2
 
-install.packages("reprex")
-library(reprex)
+## out
+``` r
 A <- 1
 B <- 2
 C <- A+B
-C+A
-newChange=0
+C
+#> [1] 3
+```
 
-reprex()
+<sup>Created on 2020-11-01 by the [reprex package](https://reprex.tidyverse.org) (v0.3.0)</sup>
